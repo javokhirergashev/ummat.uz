@@ -8,6 +8,6 @@ class About extends Widget
 {
     public function run()
     {
-        return $this->render("about");
+        return $this->render('about');
     }
 }

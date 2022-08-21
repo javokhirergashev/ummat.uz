@@ -20,9 +20,7 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web/frontend-files';
     public $css = [
-       "vendor/bootstrap/css/bootstrap.css",
-       "js/ie8-responsive-file-warning.js",
-        "js/ie-emulation-modes-warning.js",
+        "vendor/bootstrap/css/bootstrap.css",
         "vendor/font-awesome/css/font-awesome.min.css",
         "vendor/prettyPhoto/css/prettyPhoto.css",
         "css/style.css",
@@ -33,6 +31,8 @@ class AppAsset extends AssetBundle
         "vendor/wow-animation/animate.css",
         ];
     public $js = [
+        "js/ie8-responsive-file-warning.js",
+        "js/ie-emulation-modes-warning.js",
         "js/ie10-viewport-bug-workaround.js",
         "vendor/jquery/jquery.min.js",
         "vendor/bootstrap/js/bootstrap.min.js",

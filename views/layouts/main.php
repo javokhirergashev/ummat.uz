@@ -20,35 +20,45 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-144098545-1');
-    </script>
     <?php $this->head() ?>
 </head>
-<body>
-<!-- Preloader -->
-<div class="preloader-bg"></div>
-<div id="preloader">
-    <div id="preloader-status">
-        <div class="preloader-position loader"> <span></span> </div>
-    </div>
-</div>
-<!-- Progress scroll totop -->
-<div class="progress-wrap cursor-pointer">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
-</div>
+<body class="top">
+    <?php $this->beginBody() ?>
 
-    <?=\app\widgets\Header::widget()?>
-    <?= $content ?>
-    <?=\app\widgets\Footer::widget()?>
+        <?= \app\widgets\Navigation::widget()?>
+        <?= \app\widgets\Slider::widget()?>
+        <?= $content ?>
+        <?=\app\widgets\Footer::widget()?>
     <?php $this->endBody() ?>
+    <script type="text/javascript">
+
+        var slider = new MasterSlider();
+
+        slider.control('bullets');
+
+        slider.setup('masterslider' , {
+            width:1024,
+            height:768,
+            space:5,
+            view:'fade',
+            layout:'fullscreen',
+            speed:20,
+            overPause:false,
+            autoplay:true
+        });
+
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-76890900-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
 </body>
 </html>
 <?php $this->endPage() ?>

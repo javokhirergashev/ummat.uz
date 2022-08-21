@@ -4,10 +4,10 @@ namespace app\widgets;
 
 use yii\bootstrap4\Widget;
 
-class Whyus extends Widget
+class Slider extends Widget
 {
     public function run()
     {
-        return $this->render('whyus');
+       return $this->render('slider');
     }
 }
