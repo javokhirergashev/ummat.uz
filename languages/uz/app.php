@@ -6,24 +6,35 @@ return[
 
 
 //    slider page
-    "world1" => "Sayohat bilan dunyoni",
-    "travel1" => "o'rganing",
-    'roma' => "Rimni sayohat bilan",
-    'travel' => "o'rganing",
-    "discover" => "biz",
-    "world" => "bilan dunyoni kashf eting",
-    "letsgo" => "Keling, biz bilan dunyo bo'ylab sayohat qiling",
+    "awesome" => "Ajoyib",
+    "travel" => "Sayohatlarga tayyormisiz?",
+    'show' => "Biz sizga",
+    "showyou" => "Sarguzashtli sayohatlarni ko'rsatamiz",
+
+
+//    Services page
+    "servicinfo" => "Bizning xizmatlar",
+    "extreme" => "Ekstremal sayohatlar",
+    "extremep" => "Biz sizga turli xil davlatlarda extremal sayohatlar taklif qilamiz",
+    "cost" => "Qulay narxlar",
+    "costp" => "Siz hohlagan usulda to'lov tizimi. Arzon va qulay",
+    "online" => "Online buyurtma",
+    "onlinep" => "Bizning saytimiz orqali siz sayohat uchun online chipta olishingiz mumkun",
+
+
 
 //    About page
-    "best" => "Eng yaxshi sayyohlik agentligi",
-    "aboutDis" => "dunyoni bizning",
-    "aboutW" => "Yo'lboshchimiz",
-    "aboutg" => "bilan kashf eting",
+    "aboutinfo" => "Biz haqimizda",
     "aboutp1" => "Yaxshi turizmga ega har qanday mamlakatni tanlashingiz mumkin. Biz siz uchun barcha qulayliklarni yaratib beramiz. Bizda  siz uchun qulay narxlar sarguzashtga boy sayohatlar mavjud.",
     "aboutp2" => "Bizning mehmonxonalarimiz siz uchun juda qulay va xamyonbob",
     "experience" => "Yillik tajriba",
     "tourdes" => "dan ortiq sayohalar",
     'information' => "Ma'lumot uchun",
+
+
+
+//  Gallery info
+    "galleryinfo" => "Bizning gallereyamiz",
 
 
 //    Tours page

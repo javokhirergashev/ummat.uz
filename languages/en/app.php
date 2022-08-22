@@ -5,15 +5,26 @@ return[
 
 
 //    slider page
-    "world1" => "Explore The World With",
-    "travel1" => "Travel",
-    'roma' => "Explore Rome With",
-    'travel' => "Travel",
-    "discover" => "Discover",
-    "world" => "the world with us",
-    "letsgo" => "Let's travel the world with us",
+    "awesome" => "Awesome",
+    "travel" => "Are you ready to travel?",
+    'show' => "We show you",
+    "showyou" => "adventure travel",
+
+
+//    Services page
+    "servicinfo" => "Our services",
+    "extreme" => "Extreme tours",
+    "extremep" => "We offer you extremal trips in different countries",
+    "cost" => "Affordable prices",
+    "costp" => "The way you want to pay. Cheap and convenient",
+    "online" => "Order online",
+    "onlinep" => "You can get an online ticket for the trip through our website",
+
+
+
 
     //    About page
+    "aboutinfo" => "About us",
     "best" => "The best travel agency",
     "aboutDis" => "discover the",
     "aboutW" => "World",
@@ -23,6 +34,13 @@ return[
     "experience" => "Years of Experience",
     "tourdes" => "tour destinations",
     'information' => "For information",
+
+
+
+//  Gallery info
+    "galleryinfo" => "Our Gallery",
+
+
 
     //    Tours page
     "choose" => "Choose your place",

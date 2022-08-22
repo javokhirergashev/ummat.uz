@@ -3,16 +3,16 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 col-md-6 wow fadeInLeft">
-                <img src="frontend-files/images/about.jpg" class="img-responsive img-about">
+                <img src="frontend-files/images/aboutimg.jpg" class="img-responsive img-about">
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 col-md-6 wow fadeInRight">
                 <div class="about-content">
                     <div class="section-title">
-                        <h1 class="section-heading">ABOUT US</h1>
+                        <h1 class="section-heading"><?=Yii::t("app", "aboutinfo")?></h1>
                     </div>
                     <div class="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna vel dignissim. Integer tincidunt viverra est, non congue.</p>
-                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck.<br><br>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.Aliquam vehicula mollis urna vel dignissim. Integer tincidunt viverra est, non congue.</p>
+                        <p><?=Yii::t("app", "aboutp1")?></p>
+                        <p><?=Yii::t("app", "aboutp2")?></p>
                     </div>
                 </div>
             </div>

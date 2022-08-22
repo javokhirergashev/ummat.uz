@@ -29,6 +29,7 @@ class AppAsset extends AssetBundle
         "vendor/masterslider/skins/default/style.css",
         "vendor/masterslider/style/ms-fullscreen.css",
         "vendor/wow-animation/animate.css",
+        "https://unicons.iconscout.com/release/v4.0.0/css/line.css"
         ];
     public $js = [
         "js/ie8-responsive-file-warning.js",
