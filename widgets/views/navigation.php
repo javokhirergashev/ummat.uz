@@ -10,14 +10,11 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active scroll"><a href="#home">Home</a></li>
-                <li class="scroll"><a href="#service">Services</a></li>
-                <li class="scroll"> <a href="#about">About Us</a></li>
-                <li class="scroll"><a href="#portfolio">Popular Tour</a></li>
-                <li class="scroll"><a href="#testimonial">Testimonials</a></li>
-                <li class="scroll"><a href="#package">Package</a></li>
-                <li class="scroll"><a href="#news">Blog</a></li>
-                <li class="scroll"><a href="#contact">Contact</a></li>
+                <?php if (!empty($models)):?>
+                    <?php foreach ($models as $model):?>
+                        <li class=" scroll"><a href="<?=$model->link?>"><?=$model['name_'.Yii::$app->language]?></a></li>
+                    <?php endforeach;?>
+                <?php endif;?>
             </ul>
         </div>
     </div>
