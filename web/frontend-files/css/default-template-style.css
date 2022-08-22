@@ -1,0 +1,290 @@
+/*------------------------------------------------------------------
+[Default Template Stylesheet]
+
+Project:	Kudo - Onepage Html Responsive Template
+Version:	1.1
+Last change:	06/05/2017
+Primary use:	Kudo - Onepage Html Responsive Template 
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. DEFAULT FONT SIZE STYLE
+2. Font Weight
+3. Some Commen Css
+
+-------------------------------------------------------------------*/
+
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body{
+	font-size:14px;
+}
+/*========== DEFAULT FONT SIZE STYLE==========*/
+.dart-fs-8{
+	font-size:0.5714285714285714em;
+}
+.dart-fs-10{
+	font-size:0.7142857142857143em;
+}
+.dart-fs-12, h6, .h6{
+	font-size:0.8571428571428571em;
+}
+.dart-fs-14, h5, .h5{
+	font-size:1em;
+}
+.dart-fs-16{
+	font-size:1.1428571428571428em;
+}
+.dart-fs-18, h4, .h4{
+	font-size:1.2857142857142858em;
+}
+.dart-fs-20{
+	font-size:1.4285714285714286em;
+}
+.dart-fs-24, h3, .h3{
+	font-size:1.7142857142857142em;
+}
+.dart-fs-26{
+	font-size:1.8571428571428572em;
+}
+.dart-fs-30, h2, .h2{
+	font-size:2.142857142857143em;
+}
+.dart-fs-36, h1, .h1{
+	font-size:2.5714285714285716em;
+}
+.dart-fs-40{
+	font-size:2.857142857142857em;
+}
+.dart-fs-42{
+	font-size:3em;
+}
+.dart-fs-48{
+	font-size:3.4285714285714284em;
+}
+.dart-fs-60{
+	font-size:4.285714285714286em;
+}
+.dart-fs-72{
+	font-size:5.142857142857143em;
+}
+
+
+/*----------------font-weight---------------------*/
+
+.dart-fw-100{
+	font-weight:100;
+}
+.dart-fw-200{
+	font-weight:200;
+}
+.dart-fw-300{
+	font-weight:300;
+}
+.dart-fw-400{
+	font-weight:400;
+}
+.dart-fw-500{
+	font-weight:500;
+}
+.dart-fw-600{
+	font-weight:600;
+}
+.dart-fw-700{
+	font-weight:700;
+}
+.dart-fw-800{
+	font-weight:800;
+}
+.dart-fw-900{
+	font-weight:900;
+}
+.dart-fw-bold{
+	font-weight:bold;
+}
+
+/*----------------end default font style---------------------*/
+
+
+/*----Some Commen Css---*/
+
+.no-gutter > [class*='col-'] {
+  	padding-right: 0;
+  	padding-left: 0;
+}
+.yes-gutter > [class*='col-'] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dart-no-padding {
+	padding: 0;
+}
+.dart-no-padding-tb {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.dart-no-gutter > [class*='col-'] {
+  	padding-right: 0;
+  	padding-left: 0;
+}
+.dart-mt-0{
+	margin-top:0px;
+}
+.dart-mt-10{
+	margin-top:10px;
+}
+.dart-mt-20{
+	margin-top:20px;
+}
+.dart-mt-30{
+	margin-top:30px;
+}
+.dart-mt-40{
+	margin-top:40px;
+}
+.dart-mt-50{
+	margin-top:50px;
+}
+.dart-mt-60{
+	margin-top:60px;
+}
+.dart-mt-100{
+	margin-top:100px;
+}
+.dart-mb-0{
+	margin-bottom:0px !important;
+}
+.dart-mb-10{
+	margin-bottom:10px;
+}
+.dart-mb-20{
+	margin-bottom:20px;
+}
+.dart-mb-30{
+	margin-bottom:30px !important;
+}
+.dart-mb-40{
+	margin-bottom:40px;
+}
+.dart-mb-50{
+	margin-bottom:50px;
+}
+.dart-mb-60{
+	margin-bottom:60px;
+}
+.dart-pt-0{
+	padding-top:0px;
+}
+.dart-pt-20{
+	padding-top:20px;
+}
+.dart-pt-30{
+	padding-top:30px;
+}
+.dart-pt-100{
+	padding-top:100px;
+}
+.dart-pb-0{
+	padding-bottom:0px;
+}
+.dart-pb-20{
+	padding-bottom:20px;
+}
+.dart-pb-30{
+	padding-bottom:30px;
+}
+.dart-pb-40{
+	padding-bottom:40px;
+}
+.dart-pb-50{
+	padding-bottom:50px;
+}
+.dart-pb-60{
+	padding-bottom:60px;
+}
+.dart-pb-80{
+	padding-bottom:80px;
+}
+.dart-pb-100{
+	padding-bottom:100px;
+}
+.dart-pr-0{
+	padding-right:0px;
+}
+.dart-pr-10{
+	padding-right:10px;
+}
+.dart-pr-20{
+	padding-right:20px;
+}
+.dart-pr-30{
+	padding-right:30px;
+}
+.dart-pr-40{
+	padding-right:40px;
+}
+.dart-pr-50{
+	padding-right:50px;
+}
+.dart-pl-0{
+	padding-left:0px;
+}
+.dart-pl-10{
+	padding-left:10px;
+}
+.dart-pl-20{
+	padding-left:20px;
+}
+.dart-pl-30{
+	padding-left:30px;
+}
+.dart-pl-40{
+	padding-left:40px;
+}
+.dart-pl-50{
+	padding-left:50px;
+}
+
+@media (min-width: 768px) {
+.dart-pl-30{
+	padding-left:30px;
+}
+.dart-pr-30{
+	padding-right:30px;
+}
+}
+
+.list-style-1{
+	list-style-position: outside;
+	list-style-image: url(../images/bullet%20points/bullet-1.html);
+	list-style-type: none;
+	padding-left: 15px;	
+}
+.list-style-1 li{
+	padding:5px 5px;	
+}
+
+.tail{
+    position: relative;
+	display:block;
+    border-color: rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+}
+.dart-fleft {
+	float:left;
+}
+.dart-fright {
+	float:right;
+}
+.dart-hr{
+}
+
+
+
