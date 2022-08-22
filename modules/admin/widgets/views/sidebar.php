@@ -6,7 +6,7 @@
             </a>
         </div>
         <div>
-            <h4 class="logo-text">Marmala travel admin</h4>
+            <h4 class="logo-text">ummat.uz admin</h4>
         </div>
         <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
         </div>
