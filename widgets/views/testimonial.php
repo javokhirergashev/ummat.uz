@@ -25,7 +25,11 @@
                             <p class="per-den"> Traveler</p>
                         </div>
                     </div>
+
+
                 </div>
+
+
             </div>
         </div>
     </div>

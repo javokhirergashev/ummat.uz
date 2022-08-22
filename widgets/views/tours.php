@@ -10,113 +10,43 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-4 wow fadeInLeft">
+            <?php if (!empty($models)):?>
+                <?php foreach ($models as $model):?>
+                    <?php
+                        $image = \app\models\StaticFunctions::getImage('tours',$model->id,$model->images);
+                    ?>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft">
                 <article class="blog-post-container clearfix">
                     <div class="post-thumbnail">
-                        <img src="frontend-files/images/blog-post/blog-1.jpg" class="img-responsive " alt="Image">
-                        <div class="post-date">
-                            <span class="dart-fs-26 dart-fw-500">29</span>
-                            <span class="dart-fs-14">AUG</span>
-                        </div>
+                        <img src="<?=$image?>" class="img-responsive " alt="Image">
+
                     </div><!-- /.post-thumbnail -->
 
                     <div class="blog-content">
                         <div class="dart-header">
-                            <h4 class="dart-title"><a href="blog-single.html">Sea Surfing</a></h4>
+                            <h4 class="dart-title"><a href="blog-single.html"><?=$model['title_'.Yii::$app->language];?></a></h4>
                             <div class="dart-meta">
                                 <ul class="list-unstyled">
-                                    <li><span class="author"> By: <a href="#">Admin</a></span></li>
-                                    <li><span><a href="#">IN WEB DESIGN</a></span></li>
+                                    <li><span class="author"><a href="#"><?=$model->price?></a></span></li>
+                                    <li><span><a href="#"><?=$model->price?></a></span></li>
                                 </ul>
                             </div><!-- /.dart-meta -->
                         </div><!-- /.dart-header -->
 
                         <div class="dart-content">
-                            <p>Lorem Ipsum is simply dummy text of the rinting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sincer they 1500s.</p>
+                            <p><?=$model['description_'.Yii::$app->language];?></p>
                         </div><!-- /.dart-content -->
 
                         <div class="dart-footer light-gray">
                             <ul class="dart-meta clearfix list-unstyled">
-                                <li><a class="pull-left" href="#"><i class="fa fa-heart"></i> &nbsp; 30</a></li>
-                                <li><a class="pull-left" href="#"><i class="fa fa-comment"></i> &nbsp; 30</a></li>
                                 <li><a class="pull-right btn-more" href="#"> <i class="fa fa-long-arrow-right"> More </i></a></li>
                             </ul>
                         </div><!-- /.dart-footer -->
                     </div><!-- /.blog-content -->
                 </article>
             </div>
-
-            <div class="col-md-4 col-sm-4 wow fadeInDown">
-                <article class="blog-post-container clearfix">
-                    <div class="post-thumbnail">
-                        <img src="frontend-files/images/blog-post/blog-2.jpg" class="img-responsive " alt="Image">
-                        <div class="post-date">
-                            <span class="dart-fs-26 dart-fw-500">29</span>
-                            <span class="dart-fs-14">AUG</span>
-                        </div>
-                    </div><!-- /.post-thumbnail -->
-
-                    <div class="blog-content">
-                        <div class="dart-header">
-                            <h4 class="dart-title"><a href="blog-single.html">Mountain Traking</a></h4>
-                            <div class="dart-meta">
-                                <ul class="list-unstyled">
-                                    <li><span class="author"> By: <a href="#">Admin</a></span></li>
-                                    <li><span><a href="#">IN WEB DESIGN</a></span></li>
-                                </ul>
-                            </div><!-- /.dart-meta -->
-                        </div><!-- /.dart-header -->
-
-                        <div class="dart-content">
-                            <p>Lorem Ipsum is simply dummy text of the rinting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sincer they 1500s.</p>
-                        </div><!-- /.dart-content -->
-
-                        <div class="dart-footer light-gray">
-                            <ul class="dart-meta clearfix list-unstyled">
-                                <li><a class="pull-left" href="#"><i class="fa fa-heart"></i> &nbsp; 30</a></li>
-                                <li><a class="pull-left" href="#"><i class="fa fa-comment"></i> &nbsp; 30</a></li>
-                                <li><a class="pull-right btn-more" href="#"> <i class="fa fa-long-arrow-right"> More </i></a></li>
-                            </ul>
-                        </div><!-- /.dart-footer -->
-                    </div><!-- /.blog-content -->
-                </article>
-            </div>
-
-            <div class="col-md-4 col-sm-4 wow fadeInRight">
-                <article class="blog-post-container clearfix">
-                    <div class="post-thumbnail">
-                        <img src="frontend-files/images/blog-post/blog-3.jpg" class="img-responsive " alt="Image">
-                        <div class="post-date">
-                            <span class="dart-fs-26 dart-fw-500">29</span>
-                            <span class="dart-fs-14">AUG</span>
-                        </div>
-                    </div><!-- /.post-thumbnail -->
-
-                    <div class="blog-content">
-                        <div class="dart-header">
-                            <h4 class="dart-title"><a href="blog-single.html">Ice Sketing</a></h4>
-                            <div class="dart-meta">
-                                <ul class="list-unstyled">
-                                    <li><span class="author"> By: <a href="#">Admin</a></span></li>
-                                    <li><span><a href="#">IN WEB DESIGN</a></span></li>
-                                </ul>
-                            </div><!-- /.dart-meta -->
-                        </div><!-- /.dart-header -->
-
-                        <div class="dart-content">
-                            <p>Lorem Ipsum is simply dummy text of the rinting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sincer they 1500s.</p>
-                        </div><!-- /.dart-content -->
-
-                        <div class="dart-footer light-gray">
-                            <ul class="dart-meta clearfix list-unstyled">
-                                <li><a class="pull-left" href="#"><i class="fa fa-heart"></i> &nbsp; 30</a></li>
-                                <li><a class="pull-left" href="#"><i class="fa fa-comment"></i> &nbsp; 30</a></li>
-                                <li><a class="pull-right btn-more" href="#"> <i class="fa fa-long-arrow-right"> More </i></a></li>
-                            </ul>
-                        </div><!-- /.dart-footer -->
-                    </div><!-- /.blog-content -->
-                </article>
-            </div>
+                <?php endforeach;?>
+            <?endif;?>
         </div><!-- /.row -->
     </div>
 </section>

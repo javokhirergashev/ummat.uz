@@ -8,6 +8,7 @@ class Tours extends Widget
 {
     public function run()
     {
-        return $this->render('tours');
+        $models = \app\models\Tours::find()->where(['status'=>1])->orderBy(["id"=>SORT_DESC])->all();
+        return $this->render('tours',compact('models'));
     }
 }
