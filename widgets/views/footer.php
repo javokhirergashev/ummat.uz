@@ -9,7 +9,7 @@
                 <div class="footer-block"><!-- footer block -->
                     <img src="/frontend-files/images/call-icon.png" alt="Call"><!-- call icon -->
                     <h5>Toll Number</h5>
-                    <h4>1-234-567-890  /  1-987 456 3210</h4>
+                    <h4></h4>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 wow fadeInDown">
