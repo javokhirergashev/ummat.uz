@@ -9,7 +9,7 @@ return[
     "awesome" => "Ajoyib",
     "travel" => "Sayohatlarga tayyormisiz?",
     'show' => "Biz sizga",
-    "showyou" => "Sarguzashtli sayohatlarni ko'rsatamiz",
+    "showyou" => "Qiziqarli sayohatlarni ko'rsatamiz",
 
 
 //    Services page
@@ -50,6 +50,7 @@ return[
 
 
 //    destination page
+    "choosedes" => "Manzilingizni tanlang",
     "topdes" => "Eng yaxshi yo'nalishlar",
     "popdes" => "yo'nalishlar",
     "more" => "Batafsil",

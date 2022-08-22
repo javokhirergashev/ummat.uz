@@ -641,6 +641,7 @@ blockquote{
 	    transition: all 0.3s ease-in-out;
 	}
 	.pack-two h2{
+		font-size: 25px;
 		color:#5fc7ae;
 		-webkit-transition: all 0.3s ease-in-out;
 	    -moz-transition: all 0.3s ease-in-out;
@@ -762,6 +763,10 @@ blockquote{
 }
 .news .blog-post-container .dart-header .dart-meta li{
 	border-right: 1px solid #898989;
+}
+
+.news .blog-post-container .dart-header .dart-meta span{
+	font-size: 13px;
 }
 .news .blog-post-container .dart-footer .dart-meta a{
 	margin-right:5px;
@@ -995,20 +1000,22 @@ blockquote{
     line-height: 45px;
 }
 
-.footer-social i.fa-twitter {
+.footer-social i.uil-telegram {
     color:#000;
 }
-.footer-social i.fa-facebook {
+.footer-social i.uil-facebook-f {
     color:#000;
 }
-.footer-social i.fa-google-plus {
+.footer-social i.uil-instagram {
     color:#000;
 }
-.footer-social i.fa-dribbble {
-    color:#000;
+
+.footer-social i.uil-youtube {
+	color:#000;
 }
-.footer-social i.fa-behance {
-    color:#000;
+
+.footer-social li a i:hover{
+	color: white;
 }
 
 .footer-social a:hover i.fa {
@@ -1020,7 +1027,7 @@ blockquote{
     transition: all 0.3s ease-in-out;
 }
 
-.footer-social a.twitter:hover {
+.footer-social a.telegram:hover {
 	background-color: #55acee;
     border-color: #55acee;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1038,33 +1045,26 @@ blockquote{
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.footer-social a.google-plus:hover {
-	background-color: #fc5b4d;
-    border-color: #fc5b4d;
+.footer-social a.instagram:hover {
+	background-color: #fd6054;
+    border-color: #fd6054;
+	color: white;
 	-webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.footer-social a.dribbble:hover {
-	background-color: #e94c89;
-    border-color: #e94c89;
+.footer-social a.youtube:hover {
+	background-color: #ff3a2c;
+    border-color: #ff3a2c;
 	-webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.footer-social a.behance:hover {
-	background-color: #6ccef2;
-    border-color: #6ccef2;
-	-webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
+
 .copyright{
 	background-color:#000;
 }
@@ -1174,9 +1174,23 @@ body{
 
 
 
-.clearfix i{
+.clearfix .unicon{
 	font-size: 50px;
 	color: #5FC7AE;
 }
-	
+
+
+.boximg{
+	width: 100%;
+}
+
+.boximg img{
+	width: 100%;
+}
+
+.profile-circle img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
 	

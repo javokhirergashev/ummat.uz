@@ -5,8 +5,8 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="#home"><img src="frontend-files/images/logo-white.png" class="logo logo-display img-responsive" alt=""></a>
-            <a class="navbar-brand" href="#home"><img src="frontend-files/images/logo-black.png" class="logo logo-scrolled img-responsive" alt=""></a>
+            <a class="navbar-brand" href="#home"><img src="/frontend-files/images/logo-white.png" class="logo logo-display img-responsive" alt=""></a>
+            <a class="navbar-brand" href="#home"><img src="/frontend-files/images/logo-black.png" class="logo logo-scrolled img-responsive" alt=""></a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-right">

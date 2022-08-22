@@ -8,7 +8,7 @@ use app\models\ToursCategory;
 
 class ToursController extends GeneralController
 {
-    public function actionView()
+    public function actionView($id)
     {
         $models = Tours::find()->where(['category_id'=>$id])->all();
         $categories = ToursCategory::find()->where(['id'=>$id])->all();

@@ -44,6 +44,9 @@ return[
 
 
 
+//    destination page
+    "choosedes" => "Выберите свой адрес",
+
 
     //    Tours page
     "choose" => "Выберите свое местоположение",
@@ -55,6 +58,9 @@ return[
     "amazing" => "Большая поездка",
     "cruises" => "Забронировать круизы",
     "ticket" => "Бронирование билетов",
+
+
+
 
 
     //    Popular page

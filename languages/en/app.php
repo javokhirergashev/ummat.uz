@@ -8,7 +8,7 @@ return[
     "awesome" => "Awesome",
     "travel" => "Are you ready to travel?",
     'show' => "We show you",
-    "showyou" => "adventure travel",
+    "showyou" => "interesting  travel",
 
 
 //    Services page
@@ -39,6 +39,11 @@ return[
 
 //  Gallery info
     "galleryinfo" => "Our Gallery",
+
+
+
+//    destination page
+    "choosedes" => "Choose your destination",
 
 
 
