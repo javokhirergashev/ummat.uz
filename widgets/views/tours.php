@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-12 text-center"><!-- section title -->
                 <div class="section-title">
-                    <h1 class="section-heading">Latest Blog</h1>
+                    <h1 class="section-heading"><?=Yii::t("app", "tours")?></h1>
                     <span class="divider"><img src="frontend-files/images/sep-1.png" alt="Divider"></span>
                 </div>
             </div>

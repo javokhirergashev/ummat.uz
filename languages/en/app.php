@@ -48,7 +48,7 @@ return[
 
 
     //    Tours page
-    "choose" => "Choose your place",
+    "tours" => "tour packages",
     "popular" => "popular",
     "poptours" => "Tours",
 
@@ -92,7 +92,7 @@ return[
 
 
     //    Contact page
-    "contactt1" => "Travel Agency",
+    "contactinfo" => "Connection",
     'name' => "Name",
     'surname' => "Surname",
     'email' => "E-mail",
@@ -106,7 +106,8 @@ return[
 
 
 //    Footer page
-    "callus" => "Call us",
+    "callus" => "For communication",
+    "addres" => "Our address",
     "writeus" => "Write to us",
     "infolinks" => "You can reach us on our social network addresses through the following links",
     "menulinks" => "Sections",

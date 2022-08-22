@@ -38,7 +38,7 @@ return[
 
 
 //    Tours page
-    "choose" => "joyingizni tanlang",
+    "tours" => "tur paketlar",
     "popular" => "Mashxur",
     "poptours" => "Sayohatlar",
 
@@ -89,7 +89,7 @@ return[
 
 
 //    Contact page
-    "contactt1" => "Sayohat agentligi",
+    "contactinfo" => "Bog'lanish",
     'name'=>"Ism",
     'surname' => "Familya",
     'email' => "Elektron Manzil",
@@ -104,8 +104,9 @@ return[
 
 
 //    Footer page
-    "callus" => "Bizga qo'ng'iroq qiling",
+    "callus" => "Aloqa uchun",
     "writeus" => "Biznig elektron manzil",
+    "addres" => "Manzilimiz",
     "infolinks" => "Bizni ijtimoiy tarmoqdagi manzillarimizga quyidagi havolalar orqali kirishingiz mumkun",
     "menulinks" => "Bo'limlar",
     "subscribe" => "Obuna boʻling",

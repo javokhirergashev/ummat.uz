@@ -1010,7 +1010,7 @@ blockquote{
     color:#000;
 }
 
-.footer-social i.uil-youtube {
+.footer-social i.uil-twitter {
 	color:#000;
 }
 
@@ -1055,7 +1055,7 @@ blockquote{
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.footer-social a.youtube:hover {
+.footer-social a.twitter:hover {
 	background-color: #ff3a2c;
     border-color: #ff3a2c;
 	-webkit-transition: all 0.3s ease-in-out;

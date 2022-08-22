@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-push-6 col-lg-6"><!-- contact info -->
                 <div class="section-title wow fadeInDown">
-                    <h1 class="section-heading">Get In Touch</h1>
+                    <h1 class="section-heading"><?=Yii::t("app", "contactinfo")?></h1>
                 </div>
                 <div class="contact-form wow fadeInLeft"><!-- contact form -->
                     <form action="https://html-templates.multipurposethemes.com/traveltwo/send_email.php" id="contact" name="contact" method="post">
