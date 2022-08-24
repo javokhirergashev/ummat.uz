@@ -30,7 +30,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" name="InputPhone" id="InputPhone" placeholder="<?=Yii::t("app", "tel")?>" required="" type="datetime-local">
+                            <input class="form-control" name="InputPhone" id="InputData" placeholder="<?=Yii::t("app", "tel")?>" required="" type="datetime-local">
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" name="InputMessage" id="InputMessage" rows="4" placeholder="<?=Yii::t("app", "message")?>" required=""></textarea>

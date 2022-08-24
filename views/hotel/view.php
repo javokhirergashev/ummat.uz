@@ -1,42 +1,49 @@
-<section id="portfolio-area" class="portfolio-area-two" data-scroll-index="2">
+<section class="news" id="news">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 col-md-6">
-                <div class="section-title section-title-two">
-                    <h2><?=Yii::t("app", "hotel")?></h2>
+            <div class="col-lg-12 text-center"><!-- section title -->
+                <div class="section-title">
+                    <h1 class="section-heading">Latest Blog</h1>
+                    <span class="divider"><img src="/frontend-files/images/sep-1.png" alt="Divider"></span>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-12 portfolio-carousel owl-carousel">
-                <?php if (!empty($models)): ?>
-                    <?php foreach ($models as $model): ?>
-                        <?php
-                        $image = \app\models\StaticFunctions::getImage('hotel',$model->id,$model->images);
 
-                        if (is_file($image)){
-                            $image = "assets/images/no_photo.png";
-                        }
-                        ?>
+            <?php if (!empty($models)):?>
+                <?php foreach ($models as $model):?>
 
-                        <div class="single-portfolio">
-                            <div class="portfolio-img">
-                                <img src="<?=$image?>" alt="Portfolio">
-                                <a href="<?=$image?>">
-                                    <i class="ion-android-search"></i>
-                                </a>
-                            </div>
-                            <div class="overlay-portfolio-text">
-                                <h4><?=$model->name?></h4>
-                                <p><?=$model->country?></p>
+                    <?php
+                        $img = \app\models\StaticFunctions::getImage("hotel", $model->id, $model->images);
+                    ?>
 
-                            </div>
-                        </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInDown">
+                        <article class="blog-post-container clearfix">
+                            <div class="post-thumbnail">
+                                <img src="<?=$img?>" class="img-responsive " alt="Image">
+                            </div><!-- /.post-thumbnail -->
 
-                    <?php endforeach;?>
-                <?php endif;?>
-            </div>
-        </div>
+                            <div class="blog-content">
+                                <div class="dart-header">
+                                    <h4 class="dart-title"><a href="blog-single.html"><?=$model->name?></a></h4>
+                                </div>
+
+                                <div class="dart-content">
+                                    <p><?=$model->country?></p>
+                                </div><!-- /.dart-content -->
+
+                                <div class="dart-footer light-gray">
+                                    <ul class="dart-meta clearfix list-unstyled">
+                                        <li><a class="pull-left" href="#"><i class="fa fa-heart"></i> &nbsp; 30</a></li>
+                                        <li><a class="pull-left" href="#"><i class="fa fa-comment"></i> &nbsp; 30</a></li>
+                                        <li><a class="pull-right btn-more" href="<?=\yii\helpers\Url::to(["toursview/view", "id"=>$model->id])?>"> <i class="fa fa-long-arrow-right"> <?=Yii::t("app", "more")?> </i></a></li>
+                                    </ul>
+                                </div><!-- /.dart-footer -->
+                            </div><!-- /.blog-content -->
+                        </article>
+                    </div>
+                <?php endforeach;?>
+            <?php endif;?>
+        </div><!-- /.row -->
     </div>
 </section>
-

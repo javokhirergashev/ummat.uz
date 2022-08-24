@@ -15,7 +15,21 @@
                         <li class=" scroll"><a href="<?=$model->link?>"><?=$model['name_'.Yii::$app->language]?></a></li>
                     <?php endforeach;?>
                 <?php endif;?>
+
+                <a class="sign" href="#"><i class="uil uil-signout"></i></a>
+                <div class="containerr-1">
+                    <button class="click"><i class="uil uil-globe" ></i><i class="uil uil-angle-down" id="down"></i></button>
+                    <div class="listt">
+                        <?php
+                        foreach (Yii::$app->params['language'] as $key => $value){echo
+                            "<li id='linka'>
+                                  <a href='".\yii\helpers\Url::to(['site/ozgar',"til"=>$key])."' id='ahref'><img src='' alt=''><p class='imageValue'>".$value."</p></a>
+                               </li>";
+                        }?>
+                    </div>
+                </div>
             </ul>
+
         </div>
     </div>
 </nav>
