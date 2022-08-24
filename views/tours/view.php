@@ -4,12 +4,8 @@
         <div class="row">
             <div class="col-lg-12 text-center"><!-- section title -->
                 <div class="section-title">
-                    <?php if(!empty($categories)):?>
-                        <?php foreach ($categories as $category):?>
-                            <h1 class="section-heading"><?=$category["name_".Yii::$app->language]?> </h1>
-                        <?php endforeach;?>
-                    <?php endif;?>
-                    <span class="divider"><img src="/frontend-files/images/sep-1.png" alt="Divider"></span>
+                    <h1 class="section-heading"><?=Yii::t("app", "tours")?></h1>
+                    <span class="divider"><img src="frontend-files/images/sep-1.png" alt="Divider"></span>
                 </div>
             </div>
         </div>

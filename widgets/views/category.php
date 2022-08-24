@@ -34,7 +34,7 @@
 <!--                                <li><p>Loving-Kindness</p></li>-->
 <!--                                <li><p>Kundalini</p></li>-->
 <!--                            </ul>-->
-                            <a href="<?=\yii\helpers\Url::to(["/tours/view", "id"=>$model->id])?>" class="custom-btn contact-us"><?=Yii::t("app", "more")?></a>
+                            <a href="<?=\yii\helpers\Url::to(["/category/view", "id"=>$model->id])?>" class="custom-btn contact-us"><?=Yii::t("app", "more")?></a>
                         </div>
                     </div>
                 </div>
