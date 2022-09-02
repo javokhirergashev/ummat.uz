@@ -16,7 +16,7 @@
                     <?php endforeach;?>
                 <?php endif;?>
 
-                <a class="sign" href="#"><i class="uil uil-signout"></i></a>
+                <a class="sign" href="<?=\yii\helpers\Url::to(["admin/"])?>"><i class="uil uil-signout"></i></a>
                 <div class="containerr-1">
                     <button class="click"><i class="uil uil-globe" ></i><i class="uil uil-angle-down" id="down"></i></button>
                     <div class="listt">
