@@ -4,7 +4,7 @@
         <!-- masterslider -->
         <div class="master-slider ms-skin-default" id="masterslider">
             <div class="ms-slide slide-1">
-                <img src="/frontend-files/vendor/masterslider/style/blank.gif" data-src="/frontend-files/images/banner-1.jpg" alt="lorem ipsum dolor sit">
+                <img src="/frontend-files/vendor/masterslider/style/blank.gif" data-src="web/frontend-files/images/banner-1.jpg" alt="lorem ipsum dolor sit">
                 <h3 class="ms-layer bold-text-white bigtext" data-type="text" data-effect="rotate3dtop(70,0,0,180)" data-duration="2000" data-ease="easeInOutQuint">
                     <?=Yii::t("app", "awesome")?>
                 </h3>

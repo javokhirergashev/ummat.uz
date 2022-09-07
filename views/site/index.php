@@ -2,7 +2,7 @@
 
 /** @var yii\web\View $this */
 
-$this->title = 'ummat.uz';
+$this->title = 'rayyontravels.uz';
 ?>
 
 <?=\app\widgets\Service::widget()?>
